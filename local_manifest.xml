@@ -11,6 +11,6 @@
   <!-- Sync trees -->        
        <project path="device/xiaomi/rova" name="device_xiaomi_rova" remote="megumin775" revision="12.1" />
        <project path="vendor/xiaomi/rova" name="vendor_xiaomi_rova" remote="megumin775" revision="12.1" />
-       <project path="kernel/xiaomi/rova" name="kernel_rova" remote="max" revision="12" />
+       <project path="kernel/xiaomi/rova" name="kernel_xiaomi_rova" remote="megumin775" revision="12.1" />
 
 </manifest>
