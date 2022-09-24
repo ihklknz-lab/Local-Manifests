@@ -14,7 +14,7 @@
        
 
   <!-- Clone GCC -->
-        <project path="prebuilts/gcc64" name="mvaisakh/gcc-arm64" remote="ItoRenz" revision="gcc-master" />
-        <project path="prebuilts/gcc32" name="mvaisakh/gcc-arm" remote="ItoRenz" revision="gcc-master" />
+       <project path="prebuilts/gcc64" name="mvaisakh/gcc-arm64" remote="ItoRenz" revision="gcc-master" />
+       <project path="prebuilts/gcc32" name="mvaisakh/gcc-arm" remote="ItoRenz" revision="gcc-master" />
 
 </manifest>
