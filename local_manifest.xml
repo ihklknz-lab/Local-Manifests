@@ -4,9 +4,6 @@
 
   <remote name="megumin775"
           fetch="https://github.com/megumin775" />
-  <remote name="max"
-          fetch="https://github.com/iusmac" />
-
 
   <!-- Sync trees -->        
        <project path="device/xiaomi/rova" name="device_xiaomi_rova" remote="megumin775" revision="12.1" />
