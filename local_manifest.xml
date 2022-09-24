@@ -6,17 +6,16 @@
           fetch="https://github.com/megumin775" />
   <remote name="ItoRenz"
           fetch="https://github.com/ItoRenz" />
-  <remote name="mvaisakh"
-          fetch="https://github.com/mvaisakh" />
+  <remote name="bdjmfoe"
+          fetch="https://github.com/bdjmfoe" />
 
   <!-- Sync trees -->        
        <project path="device/xiaomi/rova" name="device_xiaomi_rova" remote="megumin775" revision="12.1" />
        <project path="vendor/xiaomi/rova" name="vendor_xiaomi_rova" remote="megumin775" revision="12.1" />
-       <project path="kernel/xiaomi/rova" name="kernel_xiaomi_rova" remote="megumin775" revision="12.1" />
+       <project path="kernel/xiaomi/rova" name="kernel_xiaomi_msm8937" remote="ItoRenz" revision="12.1" />
        
 
-  <!-- Clone GCC -->
-       <project path="prebuilts/gcc64" name="mvaisakh/gcc-arm64" remote="mvaisakh" revision="gcc-master" />
-       <project path="prebuilts/gcc32" name="mvaisakh/gcc-arm" remote="mvaisakh" revision="gcc-master" />
+  <!-- Clang -->
+       <project remote="bdjmfoe" name="clang-r416183b1" revision="main" path="prebuilts/clang/host/linux-x86/clang-r416183b1" />
 
 </manifest>
