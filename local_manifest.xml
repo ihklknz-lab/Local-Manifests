@@ -14,7 +14,4 @@
        <project path="vendor/xiaomi/rova" name="vendor_xiaomi_rova" remote="megumin775" revision="12.1" />
        <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_msm8937" remote="ItoRenz" revision="12.1" />
 
-  <!-- Clang -->
-       <project remote="bdjmfoe" name="clang-r416183b1" revision="main" path="prebuilts/clang/host/linux-x86/clang-r416183b1" />
-
 </manifest>
