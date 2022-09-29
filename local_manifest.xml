@@ -2,16 +2,22 @@
 
 <manifest>
 
+   <!-- Remote Name -->
   <remote name="megumin775"
           fetch="https://github.com/megumin775" />
   <remote name="ItoRenz"
           fetch="https://github.com/ItoRenz-Build" />
   <remote name="bdjmfoe"
           fetch="https://github.com/bdjmfoe" />
+  <remote name="proton-clang"
+          fetch="https://github.com/kdrag0n" />
 
-  <!-- Sync trees -->        
+  <!-- trees -->        
        <project path="device/xiaomi/rova" name="device_xiaomi_rova" remote="megumin775" revision="12.1" />
        <project path="vendor/xiaomi/rova" name="vendor_xiaomi_rova" remote="megumin775" revision="12.1" />
        <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_msm8937" remote="ItoRenz" revision="12.1" />
+
+  <!-- proton-clang -->
+       <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-clang" revision="master" clone-depth="1"/>
 
 </manifest>
