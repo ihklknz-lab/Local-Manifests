@@ -18,6 +18,6 @@
        <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_msm8937" remote="ItoRenz" revision="12.1" />
 
   <!-- proton-clang -->
-       <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-clang" revision="master" clone-depth="1"/>
+       <project remote="proton-clang" name="proton-clang" revision="master" path="prebuilts/clang/host/linux-x86/clang-proton" />
 
 </manifest>
