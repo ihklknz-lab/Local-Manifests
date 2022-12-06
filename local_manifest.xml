@@ -15,4 +15,10 @@
        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="hklknz" revision="twelve" />
        <project path="kernel/xiaomi/msm8953" name="android_kernel_msm8953" remote="zt" revision="Pringgodani" />
 
+  <!-- Remove -->
+        <remove-project name="vendor_xdroidui" />
+
+  <!-- Sync -->
+        <project path="vendor/xdroidui" name="vendor_xdroidui" remote="hklknz" revision="twelve" />
+
 </manifest>
