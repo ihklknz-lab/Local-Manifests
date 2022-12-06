@@ -5,14 +5,14 @@
    <!-- Remote Name -->
   <remote name="hklknz"
           fetch="https://github.com/hklknz" />
-  <remote name="los"
-          fetch="https://github.com/LineageOS" />
+  <remote name="zt"
+          fetch="https://github.com/zhantech" />
 
   <!-- Trees -->        
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="twelve" />
        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="hklknz" revision="twelve" />
        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="hklknz" revision="twelve" />
        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="hklknz" revision="twelve" />
-       <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="los" revision="lineage-19.1" />
+       <project path="kernel/xiaomi/msm8953" name="android_kernel_msm8953" remote="zt" revision="Pringgodani" />
 
 </manifest>
