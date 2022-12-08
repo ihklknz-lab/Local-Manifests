@@ -7,21 +7,20 @@
           fetch="https://github.com/hklknz" />
   <remote name="zhantech"
           fetch="https://github.com/zhantech" />
-  <--remote name="bdjmfoe"
-          fetch="https://github.com/bdjmfoe"--/>
+  <remote name="lnk"
+          fetch="https://github.com/prorooter007" />
 
   <!-- Trees -->        
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="twelve" />
        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="hklknz" revision="twelve" />
        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="hklknz" revision="twelve" />
        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="hklknz" revision="twelve" />
-       <project path="kernel/xiaomi/msm8953" name="android_kernel_msm8953" remote="zhantech" revision="Pringgodani" />
+       <project path="kernel/xiaomi/msm8953" name="LightningKernel_xiaomi_msm8953" remote="lnk" revision="lightlosreb2" />
 
   <!-- Remove -->
        <remove-project name="xd_vendor_xdroidui" />
 
   <!-- Sync -->
        <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="hklknz" revision="twelve" />
-       <--project remote="bdjmfoe" name="clang-r416183b1" revision="main" path="prebuilts/clang/host/linux-x86/clang-r416183b1" --/>
 
 </manifest>
