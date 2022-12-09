@@ -9,15 +9,15 @@
           fetch="https://github.com/zhantech" />
   <remote name="lnk"
           fetch="https://github.com/prorooter007" />
-  <remote name="bdjmfoe"
-          fetch="https://github.com/bdjmfoe" />
+  <remote name="los"
+          fetch="https://github.com/LineageOS" />
 
   <!-- Trees -->        
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="twelve" />
        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="hklknz" revision="twelve" />
        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="hklknz" revision="twelve" />
        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="hklknz" revision="twelve" />
-       <project path="kernel/xiaomi/msm8953" name="LightningKernel_Xiaomi_msm8953" remote="lnk" revision="lightlosreb2" />
+       <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="los" revision="lineage-19.1" />
 
   <!-- Remove -->
        <remove-project name="xd_vendor_xdroidui" />
