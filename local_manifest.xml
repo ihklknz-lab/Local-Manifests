@@ -11,6 +11,8 @@
           fetch="https://github.com/prorooter007" />
   <remote name="los"
           fetch="https://github.com/LineageOS" />
+  <remote name="bdjmfoe"
+          fetch="https://github.com/bdjmfoe" />
 
   <!-- Trees -->        
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="twelve" />
