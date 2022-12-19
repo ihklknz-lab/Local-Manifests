@@ -31,6 +31,6 @@
   <!-- Sync -->
        <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="hklknz" revision="twelve" />
        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS-Devices" revision="arrow-11.0" />
-       <project path="prebuilts/clang/host/linux-x86/gabuters-clang" name="gabuters-clang" remote="gabut" revision="clang15" />
+       <project path="prebuilts/clang/host/linux-x86/gabuters-clang" name="gabuters-clang" remote="gabut" revision="clang-15" />
 
 </manifest>
