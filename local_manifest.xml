@@ -13,6 +13,8 @@
           fetch="https://github.com/LineageOS" />
   <remote name="proton-clang"
           fetch="https://github.com/kdrag0n" />
+ <remote name="ArrowOS-Devices"
+         fetch="https://github.com/ArrowOS-Devices" />
 
   <!-- Trees -->        
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="twelve" />
@@ -27,5 +29,6 @@
   <!-- Sync -->
        <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="hklknz" revision="twelve" />
        <project remote="proton-clang" name="proton-clang" revision="master" path="prebuilts/clang/host/linux-x86/clang-proton" />
+       <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS-Devices" revision="arrow-11.0" />
 
 </manifest>
