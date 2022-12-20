@@ -15,14 +15,14 @@
           fetch="https://github.com/kdrag0n" />
  <remote name="ArrowOS-Devices"
          fetch="https://github.com/ArrowOS-Devices" />
- <remote name="gabut"
-         fetch="https://github.com/Gabuters-Dev/gabuters-clang" />
+ <remote name="xdoss"
+         fetch="https://github.com/xdroid-devices" />
 
   <!-- Trees -->        
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="twelve" />
-       <project path="device/xiaomi/msm8953-common" name="dt_msm8953" remote="zhantech" revision="12.1" />
-       <project path="vendor/xiaomi/tissot" name="vt_tissot" remote="zhantech" revision="12.1" />
-       <project path="vendor/xiaomi/msm8953-common" name="vt_msm8953" remote="zhantech" revision="12.1" />
+       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="xdoss" revision="twelve" />
+       <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="xdoss" revision="twelve" />
+       <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="xdoss" revision="twelve" />
        <project path="kernel/xiaomi/msm8953" name="android_kernel_msm8953" remote="zhantech" revision="Pringgodani" />
 
   <!-- Remove -->
@@ -30,7 +30,5 @@
 
   <!-- Sync -->
        <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="hklknz" revision="twelve" />
-       <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS-Devices" revision="arrow-11.0" />
-       <project path="prebuilts/clang/host/linux-x86/gabuters-clang" name="gabuters-clang" remote="gabut" revision="clang-15" />
 
 </manifest>
