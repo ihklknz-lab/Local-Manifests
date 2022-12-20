@@ -17,6 +17,8 @@
          fetch="https://github.com/ArrowOS-Devices" />
  <remote name="xdoss"
          fetch="https://github.com/xdroid-devices" />
+  <remote name="bdjmfoe"
+          fetch="https://github.com/bdjmfoe" />
 
   <!-- Trees -->        
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="twelve" />
@@ -30,5 +32,6 @@
 
   <!-- Sync -->
        <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="hklknz" revision="twelve" />
+       <project remote="bdjmfoe" name="clang-r416183b1" revision="main" path="prebuilts/clang/host/linux-x86/clang-r416183b1" />
 
 </manifest>
