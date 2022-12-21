@@ -20,10 +20,11 @@
   <remote name="xd"
           fetch="https://github.com/xdroid-oss" />
   <remote name="proton"
-                fetch="https://gitlab.com/LeCmnGend" />
+          fetch="https://gitlab.com/LeCmnGend" />
+
   <!-- Trees -->        
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="twelve" />
-       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="hklknz" revision="twelve" />
+       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="xdoss" revision="twelve" />
        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="xdoss" revision="twelve" />
        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="xdoss" revision="twelve" />
        <project path="kernel/xiaomi/msm8953" name="android_kernel_msm8953" remote="zhantech" revision="Pringgodani" />
@@ -34,7 +35,6 @@
 
   <!-- Sync -->
        <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="hklknz" revision="twelve" />
-       <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="clang-15" />
-       <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xd" revision="twelve-staging" />
+       <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="hklknz" revision="twelve-staging" />
 
 </manifest>
