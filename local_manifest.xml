@@ -17,8 +17,8 @@
          fetch="https://github.com/ArrowOS-Devices" />
  <remote name="xdoss"
          fetch="https://github.com/xdroid-devices" />
-  <remote name="bdjmfoe"
-          fetch="https://github.com/bdjmfoe" />
+  <remote name="xd"
+          fetch="https://github.com/xdroid-oss" />
   <remote name="proton"
                 fetch="https://gitlab.com/LeCmnGend" />
   <!-- Trees -->        
@@ -35,6 +35,6 @@
   <!-- Sync -->
        <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="hklknz" revision="twelve" />
        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="clang-15" />
-       <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="hklknz" revision="twelve" />
+       <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xd" revision="twelve-staging" />
 
 </manifest>
