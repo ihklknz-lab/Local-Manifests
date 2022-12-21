@@ -17,8 +17,6 @@
          fetch="https://github.com/ArrowOS-Devices" />
  <remote name="xdoss"
          fetch="https://github.com/xdroid-devices" />
-  <remote name="xd"
-          fetch="https://github.com/xdroid-oss" />
   <remote name="proton"
           fetch="https://gitlab.com/LeCmnGend" />
 
