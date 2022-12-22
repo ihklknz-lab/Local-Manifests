@@ -19,6 +19,8 @@
          fetch="https://github.com/xdroid-devices" />
   <remote name="proton"
           fetch="https://gitlab.com/LeCmnGend" />
+  <remote name="haikal"
+          fetch="https://gitlab.com/hklknz" />
 
   <!-- Trees -->        
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="twelve" />
@@ -27,7 +29,11 @@
        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="xdoss" revision="twelve" />
        <project path="kernel/xiaomi/msm8953" name="android_kernel_msm8953" remote="zhantech" revision="Pringgodani" />
 
+ <!-- Remove -->
+       <remove project="vendor_gapps"
+
  <!-- sync -->
        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="clang-15" />
+       <project path="vendor/gapps" name="vendor_gapps" remote="haikal" revision="12" />
 
 </manifest>
