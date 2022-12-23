@@ -21,7 +21,7 @@
           fetch="https://gitlab.com/hklknz" />
 
   <!-- Trees -->        
-       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="derp" />
+       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="twelve" />
        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="hklknz" revision="twelve" />
        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="xdoss" revision="twelve" />
        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="xdoss" revision="twelve" />
