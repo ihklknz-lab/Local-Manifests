@@ -21,12 +21,10 @@
           fetch="https://gitlab.com/hklknz" />
 
   <!-- Trees -->
-       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="aosp" />
-       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="hklknz" revision="twelve" />
-       <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="xdoss" revision="twelve" />
-       <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="xdoss" revision="twelve" />
+       <project path="device/xiaomi/tissot" name="device_tissot" remote="hklknz" revision="12.1" />
+       <project path="device/xiaomi/msm8953-common" name="common_msm8953" remote="hklknz" revision="12.1" />
+       <project path="vendor/xiaomi/tissot" name="vt_tissot" remote="zhantech" revision="12.1" />
+       <project path="vendor/xiaomi/msm8953-common" name="vt_msm8953" remote="zhantech" revision="12.1" />
        <project path="kernel/xiaomi/msm8953" name="android_kernel_msm8953" remote="zhantech" revision="Pringgodani" />
 
-  <!-- sync -->
-       <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang15" revision="clang-15" />
 </manifest>
