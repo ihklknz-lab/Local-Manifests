@@ -11,7 +11,7 @@
           fetch="https://github.com/prorooter007" />
   <remote name="los"
           fetch="https://github.com/LineageOS" />
- <remote name="ArrowOS-Devices"
+ <remote name="arrow"
          fetch="https://github.com/ArrowOS-Devices" />
  <remote name="xdoss"
          fetch="https://github.com/xdroid-devices" />
@@ -26,5 +26,5 @@
        <project path="vendor/xiaomi/tissot" name="vt_tissot" remote="zhantech" revision="12.1" />
        <project path="vendor/xiaomi/msm8953-common" name="vt_msm8953" remote="zhantech" revision="12.1" />
        <project path="kernel/xiaomi/msm8953" name="android_kernel_msm8953" remote="zhantech" revision="Pringgodani" />
-       <project path="prebuilts/clang/host/linux-86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="main" />
+       <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
 </manifest>
