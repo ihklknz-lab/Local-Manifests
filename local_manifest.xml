@@ -27,4 +27,8 @@
        <project path="vendor/xiaomi/msm8953-common" name="vt_msm8953" remote="zhantech" revision="12.1" />
        <project path="kernel/xiaomi/msm8953" name="android_kernel_msm8953" remote="zhantech" revision="Pringgodani" />
        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="hadeh" revision="arrow-11.0" />
+
+ <!-- Remove Project and Sync -->
+       <remove-project name="xd_vendor_xdroid" />
+       <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="hklknz" revision="twelve" />
 </manifest>
