@@ -17,8 +17,8 @@
          fetch="https://github.com/xdroid-devices" />
   <remote name="clang15"
           fetch="https://gitlab.com/LeCmnGend" />
-  <remote name="haikal"
-          fetch="https://gitlab.com/hklknz" />
+  <remote name="yuki"
+          fetch="https://gitlab.com/klozz/yuki-clang-new" />
 
   <!-- Trees -->
        <project path="device/xiaomi/tissot" name="device_tissot" remote="hklknz" revision="xd" />
@@ -31,4 +31,5 @@
  <!-- Remove Project and Sync -->
        <remove-project name="xd_vendor_xdroid" />
        <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="hklknz" revision="twelve" />
+       <project path="prebuilts/clang/host/linux-x86/yuki-clang-new" name="yuki-clang-new" remote="yuki" revision="16.0.0" />
 </manifest>
