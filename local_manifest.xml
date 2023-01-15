@@ -21,8 +21,8 @@
           fetch="https://gitlab.com/klozz/yuki-clang-new" />
 
   <!-- Trees -->
-       <project path="device/xiaomi/tissot" name="device_tissot" remote="hklknz" revision="xd" />
-       <project path="device/xiaomi/msm8953-common" name="common_msm8953" remote="hklknz" revision="xd" />
+       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="xd" />
+       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="hklknz" revision="xd" />
        <project path="vendor/xiaomi/tissot" name="vt_tissot" remote="zhantech" revision="12.1" />
        <project path="vendor/xiaomi/msm8953-common" name="vt_msm8953" remote="zhantech" revision="12.1" />
        <project path="kernel/xiaomi/msm8953" name="android_kernel_msm8953" remote="zhantech" revision="Pringgodani" />
