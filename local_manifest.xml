@@ -21,7 +21,7 @@
           fetch="https://gitlab.com/klozz/yuki-clang-new" />
 
   <!-- Trees -->
-       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="xd" />
+       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="banana" />
        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="hklknz" revision="xd" />
        <project path="vendor/xiaomi/tissot" name="vt_tissot" remote="zhantech" revision="12.1" />
        <project path="vendor/xiaomi/msm8953-common" name="vt_msm8953" remote="zhantech" revision="12.1" />
@@ -29,7 +29,5 @@
        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="hadeh" revision="arrow-11.0" />
 
  <!-- Remove Project and Sync -->
-       <remove-project name="xd_vendor_xdroid" />
-       <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="hklknz" revision="twelve" />
-       <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="clang16" revision="clang-16" />
+      <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="clang16" revision="clang-16" />
 </manifest>
