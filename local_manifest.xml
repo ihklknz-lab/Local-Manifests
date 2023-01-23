@@ -26,6 +26,4 @@
        <project path="vendor/xiaomi/tissot" name="vt_tissot" remote="zhantech" revision="13" />
        <project path="vendor/xiaomi/msm8953-common" name="vt_msm8953" remote="zhantech" revision="13" />
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="Pringgodani" />
-       <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="hadeh" revision="arrow-11.0" />
-
 </manifest>
