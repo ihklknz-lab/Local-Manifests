@@ -22,7 +22,7 @@
 
   <!-- Trees -->
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="banana" />
-       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="hklknz" revision="thirteen" />
+       <project path="device/xiaomi/msm8953-common" name="dt_msm8953" remote="zhantech" revision="13-PowerLibperfmgr" />
        <project path="vendor/xiaomi/tissot" name="vt_tissot" remote="zhantech" revision="13" />
        <project path="vendor/xiaomi/msm8953-common" name="vt_msm8953" remote="zhantech" revision="13" />
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="Pringgodani" />
