@@ -12,13 +12,13 @@
   <remote name="los"
           fetch="https://github.com/LineageOS" />
  <remote name="hadeh"
-         fetch="https://github.com/ArrowOS-Devices" />
+          fetch="https://github.com/ArrowOS-Devices" />
  <remote name="xdoss"
-         fetch="https://github.com/xdroid-devices" />
+          fetch="https://github.com/xdroid-devices" />
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD" />
-  <remote name="yuki"
-          fetch="https://gitlab.com/klozz/yuki-clang-new" />
+  <remote name="proton-cleng"
+          fetch="https://gitlab.com/LeCmnGend" />
 
   <!-- Trees -->
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="banana" />
@@ -27,8 +27,9 @@
        <project path="vendor/xiaomi/msm8953-common" name="vt_msm8953" remote="zhantech" revision="13" />
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="Pringgodani" />
        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
-  
-<!-- Remove & Sync -->
+       <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-cleng" revision="clang-15" />
+
+  <!-- Remove & Sync -->
        <remove-project name="android_vendor_banana" />
        <project path="vendor/banana" name="android_vendor_banana" remote="hklknz" revision="13" />
 
