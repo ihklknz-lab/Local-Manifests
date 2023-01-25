@@ -15,8 +15,8 @@
          fetch="https://github.com/ArrowOS-Devices" />
  <remote name="xdoss"
          fetch="https://github.com/xdroid-devices" />
-  <remote name="clang16"
-          fetch="https://gitlab.com/LeCmnGend" />
+  <remote name="teja"
+          fetch="https://gitlab.com/tejassinggh" />
   <remote name="yuki"
           fetch="https://gitlab.com/klozz/yuki-clang-new" />
 
@@ -26,4 +26,5 @@
        <project path="vendor/xiaomi/tissot" name="vt_tissot" remote="zhantech" revision="13" />
        <project path="vendor/xiaomi/msm8953-common" name="vt_msm8953" remote="zhantech" revision="13" />
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="Pringgodani" />
+       <project path="prebuilts/clang/host/linux-x86/clang-r450784d" remote="teja" revision="master" />
 </manifest>
