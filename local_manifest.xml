@@ -31,6 +31,5 @@
 
   <!-- Remove & Sync -->
        <remove-project name="android_hardware_lineage_compat" />
-       <project path="hardware/lineage/compact" name="android_hardware_lineage_compat" remote="hklknz" revision="lineage-20.0" />
 
 </manifest>
