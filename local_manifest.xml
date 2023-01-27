@@ -30,7 +30,7 @@
        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-cleng" revision="clang-15" />
 
   <!-- Remove & Sync -->
-       <remove-project name="android_hardware_lineage_compact" />
-       <project path="hardware/lineage/compact" name="android_hardware_lineage_compact" remote="hklknz" revision="lineage-20.0" />
+       <remove-project name="android_hardware_lineage_compat" />
+       <project path="hardware/lineage/compact" name="android_hardware_lineage_compat" remote="hklknz" revision="lineage-20.0" />
 
 </manifest>
