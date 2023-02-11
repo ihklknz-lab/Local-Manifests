@@ -9,7 +9,7 @@
           fetch="https://github.com/zhantech" />
   <remote name="lnk"
           fetch="https://github.com/prorooter007" />
-  <remote name="banana"
+  <remote name="adlhgwej"
           fetch="https://github.com/bananadroid-devices" />
  <remote name="hadeh"
           fetch="https://github.com/ArrowOS-Devices" />
@@ -21,10 +21,10 @@
           fetch="https://gitlab.com/LeCmnGend" />
 
   <!-- Trees -->
-       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="banana" revision="13" />
-       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="banana" revision="13" />
+       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="adlhgwej" revision="13" />
+       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="adlhgwej" revision="13" />
        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="banana" revision="13" />
-       <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="banana" revision="13" />
+       <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="adlhgwej" revision="13" />
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="Pringgodani" />
        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-cleng" revision="clang-15" />
