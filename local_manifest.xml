@@ -12,7 +12,7 @@
   <remote name="adlhgwej"
           fetch="https://github.com/bananadroid-devices" />
  <remote name="ygy"
-          fetch="https://github.com/ArrowOS" />
+          fetch="https://github.com/PixelExperience" />
  <remote name="xdoss"
           fetch="https://github.com/xdroid-devices" />
   <remote name="ImSurajxD"
@@ -32,6 +32,6 @@
   <!-- Remove & Sync -->
        <remove-project name="android_hardware_lineage_compat" />
        <remove-project name="android_hardware_qcom_bootctrl" />
-       <project path="hardware/qcom/boot/bootctrl" name="android_hardware_qcom_bootctrl" remote="ygy" revision="arrow-13.0-caf" />
+       <project path="hardware/qcom/boot/bootctrl" name="hardware_qcom-caf_bootctrl" remote="ygy" revision="thirteen" />
 
 </manifest>
