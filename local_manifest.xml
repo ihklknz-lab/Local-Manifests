@@ -31,7 +31,5 @@
 
   <!-- Remove & Sync -->
        <remove-project name="android_hardware_lineage_compat" />
-       <remove-project name="android_hardware_qcom_bootctrl" />
-       <project path="hardware/qcom/boot/bootctrl" name="hardware_qcom-caf_bootctrl" remote="ygy" revision="thirteen" />
 
 </manifest>
