@@ -7,8 +7,8 @@
           fetch="https://github.com/hklknz" />
   <remote name="zhantech"
           fetch="https://github.com/zhantech" />
-  <remote name="lnk"
-          fetch="https://github.com/prorooter007" />
+  <remote name="kawaikutegomen"
+          fetch="https://gitlab.com/hklknz" />
   <remote name="adlhgwej"
           fetch="https://github.com/bananadroid-devices" />
  <remote name="ygy"
@@ -31,5 +31,6 @@
 
   <!-- Remove & Sync -->
        <remove-project name="android_hardware_lineage_compat" />
-
+       <remove-project name="android_vendor_gms" />
+       <project path="vendor/gms" name="android_vendor_gms" remote="kawaikutegomen" revision="13" />
 </manifest>
