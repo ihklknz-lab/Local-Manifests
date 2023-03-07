@@ -2,32 +2,22 @@
 
 <manifest>
 
-   <!-- Remote Name -->
+   <!-- Remote For Deploy Trees -->
   <remote name="hklknz"
           fetch="https://github.com/hklknz" />
-  <remote name="zhantech"
-          fetch="https://github.com/zhantech" />
-  <remote name="kawaikutegomen"
-          fetch="https://gitlab.com/hklknz" />
-  <remote name="hklknz-lab"
-          fetch="https://github.com/hklknz-laboratorium" />
- <remote name="ygy"
-          fetch="https://github.com/PixelExperience" />
- <remote name="xdoss"
-          fetch="https://github.com/xdroid-devices" />
-  <remote name="ImSurajxD"
-          fetch="https://gitlab.com/ImSurajxD" />
   <remote name="proton-cleng"
           fetch="https://gitlab.com/LeCmnGend" />
+  <remote name="bananadroid-dev-trees"
+          fetch="https://github.com/bananadroid-devices" />
 
-  <!-- Trees -->
-       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz-lab" revision="13-GApps" />
-       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="hklknz-lab" revision="13" />
-       <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="hklknz-lab" revision="13" />
-       <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="hklknz-lab" revision="13" />
-       <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="boreup-wip" />
+  <!-- Set Your Directory From Trees To Here -->
+       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="bananadroid-dev-trees" revision="13-CoreGApps" />
+       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="bananadroid-dev-trees" revision="13-CoreGApps" />
+       <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="bananadroid-dev-trees" revision="13" />
+       <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="bananadroid-dev-trees" revision="13" />
+       <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="boreup-kizuna" />
        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-cleng" revision="clang-15" />
 
-  <!-- Remove & Sync -->
+  <!-- Remove It Because This Rom Doesn't Need This. -->
        <remove-project name="android_hardware_lineage_compat" />
 </manifest>
