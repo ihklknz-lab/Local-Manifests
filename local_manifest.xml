@@ -5,6 +5,8 @@
    <!-- Remote For Deploy Trees -->
   <remote name="hklknz"
           fetch="https://github.com/hklknz" />
+  <remote name="hklknz-lab"
+          fetch="https://github.com/hklknz-laboratorium" />
   <remote name="proton-cleng"
           fetch="https://gitlab.com/LeCmnGend" />
   <remote name="bananadroid-dev-trees"
@@ -12,7 +14,7 @@
 
   <!-- Set Your Directory From Trees To Here -->
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="bananadroid-dev-trees" revision="13" />
-       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="bananadroid-dev-trees" revision="13-Vanilla" />
+       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="hklknz-lab" revision="13" />
        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="bananadroid-dev-trees" revision="13" />
        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="bananadroid-dev-trees" revision="13" />
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="boreup-kizuna" />
