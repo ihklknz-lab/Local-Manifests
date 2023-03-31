@@ -17,13 +17,7 @@
           fetch="https://github.com/Evolution-X-Devices" />
   <remote name="gg"
           fetch="https://android.googlesource.com" />
-          <default revision="refs/tags/android-13.0.0_r30"
-           remote="gg"
-           sync-c="true"
-           sync-d="true"
-           sync-f="true"
-           sync-j="4" />
-          <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
+          <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" revision="refs/tags/android-13.0.0_r30" clone-depth="1" />
 
   <!-- Set Your Directory From Trees To Here -->
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="bananadroid-dev-trees" revision="13" />
