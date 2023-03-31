@@ -18,6 +18,11 @@
   <remote name="gg"
           fetch="https://android.googlesource.com" />
           <default revision="refs/tags/android-13.0.0_r30"
+           remote="aosp"
+           sync-c="true"
+           sync-d="true"
+           sync-f="true"
+           sync-j="4" />
           <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
 
   <!-- Set Your Directory From Trees To Here -->
