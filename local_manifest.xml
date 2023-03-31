@@ -17,6 +17,8 @@
           fetch="https://github.com/Evolution-X-Devices" />
   <remote name="gg"
           fetch="https://android.googlesource.com" />
+          <default revision="refs/tags/android-13.0.0_r30"
+          <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
 
   <!-- Set Your Directory From Trees To Here -->
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="bananadroid-dev-trees" revision="13" />
@@ -25,7 +27,6 @@
        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="bananadroid-dev-trees" revision="13" />
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="kizuna" />
        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-cleng" revision="clang-15" />
-       <project path="external/chromium-webview" name="platform/external/chromium-webview" remote="gg" clone-depth="1" revision="refs/tags/android-13.0.0_r30" />
 
   <!-- Remove It Because This Rom Doesn't Need This. -->
        <remove-project name="android_hardware_lineage_compat" />
