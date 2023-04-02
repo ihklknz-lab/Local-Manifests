@@ -26,7 +26,4 @@
 
   <!-- Remove It Because This Rom Doesn't Need This. -->
        <remove-project name="android_hardware_lineage_compat" />
-       <remove-project name="android_external_chromium-webview_prebuilt_arm64" />
-       <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="cat" clone-depth="1" revision="staging/lfs" />
-
 </manifest>
