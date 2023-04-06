@@ -31,7 +31,7 @@
    
   <!-- Remove -->
        <remove-project name="platform/external/wayland" />
-       <remove-project name="platform/external/wayland-protocols"
+       <remove-project name="platform/external/wayland-protocols" />
        <remove-project name="platform/tools/tradefederation" />
        <remove-project name="platform/tools/tradefederation/contrib" />
 
