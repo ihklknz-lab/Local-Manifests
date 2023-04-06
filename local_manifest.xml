@@ -17,6 +17,8 @@
           fetch="https://github.com/BayerischeMotorenWerke" />
   <remote name="awowOS"
           fetch="https://github.com/ArrowOS" />
+  <remote name="clo-la"
+          fetch="https://git.codelinaro.org" />
 
   <!-- Set Your Directory From Trees To Here -->
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="xdcaf-treble" />
@@ -26,6 +28,17 @@
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="kizuna" />
        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-cleng" revision="clang-15" />
        <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="awowOS" revision="arrow-11.0-caf" />
+   
+  <!-- Remove -->
+       <remove-project name="platform/external/wayland" />
+       <remove-project name="platform/external/wayland-protocols"
+       <remove-project name="platform/tools/tradefederation" />
+       <remove-project name="platform/tools/tradefederation/contrib" />
 
+  <!-- Sync -->
+       <project path="external/wayland" name="platform/external/wayland" remote="clo-la" revision="caf_migration/wayland-wayland/main" />
+       <project path="external/wayland-protocols" name="platform/external/wayland-protocols" remote="clo-la" revision="caf_migration/wayland-protocols/main" />
+       <project path="tools/tradefederation" name="platform/tools/tradefederation" remote="clo-la" revision="LA.QSSI.11.0.r1-18500-qssi.0" />
+       <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" remote="clo-la" revision="LA.QSSI.11.0.r1-18500-qssi.0" />
 
 </manifest>
