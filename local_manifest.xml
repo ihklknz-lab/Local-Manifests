@@ -18,7 +18,7 @@
   <remote name="awowOS"
           fetch="https://github.com/ArrowOS" />
   <remote name="clo-la"
-          fetch="https://git.codelinaro.org" />
+          fetch="https://git.codelinaro.org/clo/la" />
 
   <!-- Set Your Directory From Trees To Here -->
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="xdcaf-treble" />
