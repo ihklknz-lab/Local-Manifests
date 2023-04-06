@@ -36,8 +36,8 @@
        <remove-project name="platform/tools/tradefederation/contrib" />
 
   <!-- Sync -->
-       <project path="external/wayland" name="platform/external/wayland" remote="clo-la" revision="caf_migration/wayland-wayland/main" />
-       <project path="external/wayland-protocols" name="platform/external/wayland-protocols" remote="clo-la" revision="caf_migration/wayland-protocols/main" />
+       <project path="external/wayland" name="platform/external/freedesktop.org/wayland" remote="clo-la" revision="caf_migration/wayland-wayland/main" />
+       <project path="external/wayland-protocols" name="platform/external/freedesktop.org/wayland-protocols" remote="clo-la" revision="caf_migration/wayland-protocols/main" />
        <project path="tools/tradefederation" name="platform/tools/tradefederation" remote="clo-la" revision="LA.QSSI.11.0.r1-18500-qssi.0" />
        <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" remote="clo-la" revision="LA.QSSI.11.0.r1-18500-qssi.0" />
 
