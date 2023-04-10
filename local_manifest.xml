@@ -30,6 +30,7 @@
  
   <!-- Remove -->
        <remove-project name="xd_bootable_recovery" />
+       <remove-project name="platform/packages/apps/SoundRecorder" />
        <project path="bootable/recovery" name="android_bootable_recovery" remote="los" revision="lineage-18.1" />
        <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="errow" revision="arrow-11.0-caf" />
 
