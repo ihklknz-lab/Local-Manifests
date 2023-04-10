@@ -30,6 +30,7 @@
  
   <!-- Remove -->
        <remove-project name="platform/packages/apps/SoundRecorder" />
+       <remove-project name="packages/apps/Dialer" />
        <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="errow" revision="arrow-11.0-caf" />
 
 </manifest>
