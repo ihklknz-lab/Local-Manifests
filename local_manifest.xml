@@ -13,24 +13,13 @@
           fetch="https://gitlab.com/LeCmnGend" />
   <remote name="bananadroid-dev-trees"
           fetch="https://github.com/bananadroid-devices" />
-  <remote name="bmw"
-          fetch="https://github.com/BayerischeMotorenWerke" />
-  <remote name="errow"
-          fetch="https://github.com/ArrowOS" />
-  <remote name="los"
-          fetch="https://github.com/LineageOS" />
 
   <!-- Set Your Directory From Trees To Here -->
-       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="ihklknz" revision="xdcaf-treble" />
-       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="ihklknz" revision="xdcaf-treble" />
-       <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="bmw" revision="11" />
-       <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="bmw" revision="11" />
+       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="ihklknz" revision="p404" />
+       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="bananadroid-dev-trees" revision="13" />
+       <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="bananadroid-dev-trees" revision="13" />
+       <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="bananadroid-dev-trees" revision="13" />
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="kizuna" />
        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-cleng" revision="clang-15" />
  
-  <!-- Remove -->
-       <remove-project name="platform/packages/apps/SoundRecorder" />
-       <remove-project name="packages/apps/Dialer" />
-       <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="errow" revision="arrow-11.0-caf" />
-
 </manifest>
