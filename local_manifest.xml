@@ -17,8 +17,8 @@
           fetch="https://github.com/BayerischeMotorenWerke" />
   <remote name="errow"
           fetch="https://github.com/ArrowOS" />
-  <remote name="clo-la"
-          fetch="https://git.codelinaro.org/clo/la" />
+  <remote name="los"
+          fetch="https://github.com/LineageOS" />
 
   <!-- Set Your Directory From Trees To Here -->
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="xdcaf-treble" />
@@ -27,5 +27,10 @@
        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="bmw" revision="11" />
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="kizuna" />
        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-cleng" revision="clang-15" />
+ 
+  <!-- Remove -->
+       <remove-project name="xd_bootable_recovery" />
+       <project path="bootable/recovery" name="android_bootable_recovery" remote="los" revision="lineage-18.1" />
+       <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="errow" revision="arrow-11.0-caf" />
 
 </manifest>
