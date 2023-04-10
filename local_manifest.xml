@@ -5,10 +5,10 @@
    <!-- Remote For Deploy Trees -->
   <remote name="hklknz"
           fetch="https://github.com/hklknz" />
+  <remote name="ihklknz"
+          fetch="https://github.com/ihklknz-lab" />
   <remote name="zhantech"
           fetch="https://github.com/zhantech" />
-  <remote name="hklknz-lab"
-          fetch="https://github.com/hklknz-laboratorium" />
   <remote name="proton-cleng"
           fetch="https://gitlab.com/LeCmnGend" />
   <remote name="bananadroid-dev-trees"
@@ -21,8 +21,8 @@
           fetch="https://github.com/LineageOS" />
 
   <!-- Set Your Directory From Trees To Here -->
-       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="hklknz" revision="xdcaf-treble" />
-       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="hklknz" revision="xdcaf-treble" />
+       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="ihklknz" revision="xdcaf-treble" />
+       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="ihklknz" revision="xdcaf-treble" />
        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="bmw" revision="11" />
        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="bmw" revision="11" />
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="kizuna" />
