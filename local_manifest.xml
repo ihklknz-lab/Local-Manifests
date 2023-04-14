@@ -16,7 +16,7 @@
 
   <!-- Set Your Directory From Trees To Here -->
        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="ihklknz" revision="pos" />
-       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="ihklknz-lab" revision="pos" />
+       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="ihklknz" revision="pos" />
        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="bananadroid-dev-trees" revision="13" />
        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="bananadroid-dev-trees" revision="13" />
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="kizuna-treble" />
