@@ -11,6 +11,8 @@
           fetch="https://github.com/zhantech" />
   <remote name="proton-cleng"
           fetch="https://github.com/kdrag0n" />
+  <remote name="GK"
+          fetch="https://github.com/GengKapak" />
   <remote name="bananadroid-dev-trees"
           fetch="https://github.com/bananadroid-devices" />
 
@@ -20,7 +22,7 @@
        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="bananadroid-dev-trees" revision="13" />
        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="bananadroid-dev-trees" revision="13" />
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="kizuna-treble" />
-       <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="proton-cleng" revision="master" />
+       <project path="prebuilts/clang/host/linux-x86/GengKapak-clang" name="GengKapak-clang" remote="GK" revision="13" />
        
   <!-- Remove -->
        <remove-project name="android_hardware_lineage_compat" />
