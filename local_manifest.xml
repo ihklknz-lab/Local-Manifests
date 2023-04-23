@@ -29,7 +29,7 @@
        <project path="prebuilts/clang/host/linux-x86/GengKapak-clang" name="GengKapak-clang" remote="GK" revision="13" />
  
   <!-- sync -->
-       <remove-project name="android_hardware_qcom_bootctrl />
+       <remove-project name="android_hardware_qcom_bootctrl" />
        <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="errow" revision="arrow-11.0-caf" />
 
 </manifest>
