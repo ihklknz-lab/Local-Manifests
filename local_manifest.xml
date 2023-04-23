@@ -28,8 +28,4 @@
        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="hklknz" revision="kizuna-treble" />
        <project path="prebuilts/clang/host/linux-x86/GengKapak-clang" name="GengKapak-clang" remote="GK" revision="13" />
  
-  <!-- sync -->
-       <remove-project name="android_hardware_qcom_bootctrl" />
-       <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="errow" revision="arrow-11.0-caf" />
-       <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="error" revision="arrow-11.0" />
 </manifest>
