@@ -29,6 +29,6 @@
        <project path="prebuilts/clang/host/linux-x86/GengKapak-clang" name="GengKapak-clang" remote="GK" revision="13" />
        <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" revision="arrow-11.0" remote="arrows" />
        <remove-project name="xd_frameworks_native" />
-       <project path="frameworks/native" name="xd_frameworks_native" revision="eleven" remote="cuk439" />
+       <project path="frameworks/native" name="xd_frameworks_native" revision="eleven" remote="ihklknz" />
 
 </manifest>
